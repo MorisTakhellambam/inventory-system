@@ -162,86 +162,86 @@ class Inventory
         }
     }
 
-    // void displayItems(){                                                 //without using iostream
-    //     cout<< endl << "Item\t\t\t\tQuantity\n----\t\t\t\t--------\n" 
-    //         << rifl1.getName() << "\t\t\t\t" << rifCount << endl
-    //         << pist1.getName() << "\t\t\t\t" << pistCount << endl
-    //         << gred1.getName() << "\t\t\t\t" << gredCount << endl
-    //         << moll1.getName() << "\t\t\t\t" << mollCount << endl
-    //         << band1.getName() << "\t\t\t\t" << bandCount << endl
-    //         << plat1.getName() << "\t\t\t\t" << platCount << endl << endl;
-    // }
-
-    void displayItems(){                                                    //using iostream
-        cout.setf(ios::left, ios::adjustfield);
-        cout.width(10);
-        cout << "\nItem";
-
-        cout.setf(ios::right, ios::adjustfield);
-        cout.width(30);
-        cout << "Quantity\n";
-
-        cout.setf(ios::right, ios::adjustfield);
-        cout.width(4);
-        cout << "1. ";
-        cout.setf(ios::left, ios::adjustfield);
-        cout.width(29);
-        cout << rifl1.getName();
-        cout.setf(ios::left, ios::adjustfield);
-        cout.width(4);
-        cout << rifCount << endl;
-
-        cout.setf(ios::right, ios::adjustfield);
-        cout.width(4);
-        cout << "2. ";
-        cout.setf(ios::left, ios::adjustfield);
-        cout.width(29);
-        cout << pist1.getName();
-        cout.setf(ios::left, ios::adjustfield);
-        cout.width(4);
-        cout << pistCount << endl;
-
-        cout.setf(ios::right, ios::adjustfield);
-        cout.width(4);
-        cout << "3. ";
-        cout.setf(ios::left, ios::adjustfield);
-        cout.width(29);
-        cout << gred1.getName();
-        cout.setf(ios::left, ios::adjustfield);
-        cout.width(4);
-        cout << gredCount << endl;
-
-        cout.setf(ios::right, ios::adjustfield);
-        cout.width(4);
-        cout << "4. ";
-        cout.setf(ios::left, ios::adjustfield);
-        cout.width(29);
-        cout << moll1.getName();
-        cout.setf(ios::left, ios::adjustfield);
-        cout.width(4);
-        cout << mollCount << endl;
-
-        cout.setf(ios::right, ios::adjustfield);
-        cout.width(4);
-        cout << "5. ";
-        cout.setf(ios::left, ios::adjustfield);
-        cout.width(29);
-        cout << band1.getName();
-        cout.setf(ios::left, ios::adjustfield);
-        cout.width(4);
-        cout << bandCount << endl;
-
-        cout.setf(ios::right, ios::adjustfield);
-        cout.width(4);
-        cout << "6. ";
-        cout.setf(ios::left, ios::adjustfield);
-        cout.width(29);
-        cout << plat1.getName();
-        cout.setf(ios::left, ios::adjustfield);
-        cout.width(4);
-        cout << platCount << endl;
-
+    void displayItems(){                                                 //without using iostream
+        cout<< endl << "Item\t\t\t\tQuantity\n----\t\t\t\t--------\n" 
+            << rifl1.getName() << "\t\t\t\t" << rifCount << endl
+            << pist1.getName() << "\t\t\t\t" << pistCount << endl
+            << gred1.getName() << "\t\t\t\t" << gredCount << endl
+            << moll1.getName() << "\t\t\t\t" << mollCount << endl
+            << band1.getName() << "\t\t\t\t" << bandCount << endl
+            << plat1.getName() << "\t\t\t\t" << platCount << endl << endl;
     }
+
+    // void displayItems(){                                                    //using iostream
+    //     cout.setf(ios::left, ios::adjustfield);
+    //     cout.width(10);
+    //     cout << "\nItem";
+
+    //     cout.setf(ios::right, ios::adjustfield);
+    //     cout.width(30);
+    //     cout << "Quantity\n";
+
+    //     cout.setf(ios::right, ios::adjustfield);
+    //     cout.width(4);
+    //     cout << "1. ";
+    //     cout.setf(ios::left, ios::adjustfield);
+    //     cout.width(29);
+    //     cout << rifl1.getName();
+    //     cout.setf(ios::left, ios::adjustfield);
+    //     cout.width(4);
+    //     cout << rifCount << endl;
+
+    //     cout.setf(ios::right, ios::adjustfield);
+    //     cout.width(4);
+    //     cout << "2. ";
+    //     cout.setf(ios::left, ios::adjustfield);
+    //     cout.width(29);
+    //     cout << pist1.getName();
+    //     cout.setf(ios::left, ios::adjustfield);
+    //     cout.width(4);
+    //     cout << pistCount << endl;
+
+    //     cout.setf(ios::right, ios::adjustfield);
+    //     cout.width(4);
+    //     cout << "3. ";
+    //     cout.setf(ios::left, ios::adjustfield);
+    //     cout.width(29);
+    //     cout << gred1.getName();
+    //     cout.setf(ios::left, ios::adjustfield);
+    //     cout.width(4);
+    //     cout << gredCount << endl;
+
+    //     cout.setf(ios::right, ios::adjustfield);
+    //     cout.width(4);
+    //     cout << "4. ";
+    //     cout.setf(ios::left, ios::adjustfield);
+    //     cout.width(29);
+    //     cout << moll1.getName();
+    //     cout.setf(ios::left, ios::adjustfield);
+    //     cout.width(4);
+    //     cout << mollCount << endl;
+
+    //     cout.setf(ios::right, ios::adjustfield);
+    //     cout.width(4);
+    //     cout << "5. ";
+    //     cout.setf(ios::left, ios::adjustfield);
+    //     cout.width(29);
+    //     cout << band1.getName();
+    //     cout.setf(ios::left, ios::adjustfield);
+    //     cout.width(4);
+    //     cout << bandCount << endl;
+
+    //     cout.setf(ios::right, ios::adjustfield);
+    //     cout.width(4);
+    //     cout << "6. ";
+    //     cout.setf(ios::left, ios::adjustfield);
+    //     cout.width(29);
+    //     cout << plat1.getName();
+    //     cout.setf(ios::left, ios::adjustfield);
+    //     cout.width(4);
+    //     cout << platCount << endl;
+
+    // }
 
     Inventory(){
         size = 30;
